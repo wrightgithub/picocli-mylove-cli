@@ -17,7 +17,7 @@ import picocli.CommandLine.Parameters;
  * @date 2021/11/21
  */
 @Command(name = "curl-for", mixinStandardHelpOptions = true, version = "hello 1.0",
-    description = "Print hello to @|fg(green) STDOUT|@")
+    description = "@|fg(green) http util for test |@")
 public class ColorDemoCli implements Callable<Integer> {
 
     @Parameters(index = "0", description = "request url")
