@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.mvnsearch</groupId>
-    <artifactId>picocli-graal-demo</artifactId>
+    <artifactId>picocli-mylove-cli</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>picocli-graal-demo</name>
 
@@ -14,7 +14,7 @@
         <java.version>17</java.version>
         <picocli.version>4.5.2</picocli.version>
         <graalvm.version>21.2.0</graalvm.version>
-        <main-class>org.mvnsearch.DemoCliApp</main-class>
+        <main-class>org.mvnsearch.MyLoveCliApp</main-class>
     </properties>
 
     <dependencies>
@@ -47,6 +47,11 @@
             <version>3.18.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.javalite</groupId>
+            <artifactId>javalite-common</artifactId>
+            <version>2.3</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -62,7 +67,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>demo-cli</finalName>
+        <finalName>mylove-cli</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -133,7 +138,7 @@
                     <detail>true</detail>
                     <skip>false</skip>
                     <buildArgs>
-                        --no-fallback --add-exports=java.base/jdk.internal.module=ALL-UNNAMED
+                        --no-fallback --add-exports=java.base/jdk.internal.module=ALL-UNNAMED --enable-url-protocols=https
                     </buildArgs>
                 </configuration>
             </plugin>

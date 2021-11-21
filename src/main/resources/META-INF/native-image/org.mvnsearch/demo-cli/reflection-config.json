@@ -219,7 +219,12 @@
     ]
   },
   {
-    "name": "org.mvnsearch.DemoCliApp",
+    "name": "org.mvnsearch.MyLoveCliApp",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.mvnsearch.ColorDemoCli",
     "allDeclaredFields": true,
     "allDeclaredMethods": true
   },

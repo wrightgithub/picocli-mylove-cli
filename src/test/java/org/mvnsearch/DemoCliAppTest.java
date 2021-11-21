@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DemoCliAppTest {
-    DemoCliApp cli = new DemoCliApp();
+    MyLoveCliApp cli = new MyLoveCliApp();
 
     @Test
     public void shouldAnswerWithTrue() {
