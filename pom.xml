@@ -138,7 +138,7 @@
                     <detail>true</detail>
                     <skip>false</skip>
                     <buildArgs>
-                        --no-fallback --add-exports=java.base/jdk.internal.module=ALL-UNNAMED --enable-url-protocols=https
+                        --no-fallback --add-exports=java.base/jdk.internal.module=ALL-UNNAMED --enable-url-protocols=https --enable-url-protocols=http
                     </buildArgs>
                 </configuration>
             </plugin>
