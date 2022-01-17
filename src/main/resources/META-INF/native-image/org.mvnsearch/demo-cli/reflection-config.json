@@ -229,6 +229,11 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.mvnsearch.FileJoinCli",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "picocli.CommandLine$AutoHelpMixin",
     "allDeclaredFields": true,
     "allDeclaredMethods": true
